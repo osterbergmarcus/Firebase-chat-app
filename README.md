@@ -1,4 +1,4 @@
-# Chat app
+## Chat app
 * A simple Chat app built with JavaScript, jQuery and http://firebase.com API
 
 ## Contact
