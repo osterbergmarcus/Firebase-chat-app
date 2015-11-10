@@ -1,5 +1,4 @@
 body {
-  color: #fff;
 }
 
 .chat-app {
@@ -13,10 +12,6 @@ padding-top: 30px;
 padding-bottom: 10px;
 font-family: 'Poiret One', cursive;
 }
-
-.online-users{
-background-color: #fff;
- }
 
 .chat-app ul {
      list-style: none;
@@ -37,6 +32,6 @@ background-color: #fff;
 }
 
 .glyphicon-user{
-font-size: 64px;
-color: #BD6200;
+font-size: 24px;
+color: #111;
 }
