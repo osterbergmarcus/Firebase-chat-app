@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://cdn.firebase.com/js/client/2.2.1/firebase.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+  <script src="script.js"></script>
+  <link rel="stylesheet" type="text/css" href="styles.css"></link>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"></link>
+  <link href='https://fonts.googleapis.com/css?family=Poiret+One|Inconsolata' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <div class="container-fluid chat-app">
+<div class="row">
+  <div class="col-md-8 main">
+      <div class="name">
+        <input type="text" id="nameInput" class="form-control" placeholder="enter a username...">
+      </div>
+
+      <ul id='messages' class="chat-messages"></ul>
+
+      <div class="message-text">
+        <input type="text" id="messageInput" class="form-control" placeholder="type a message...">
+      </div>
+    </div>
+  <div class="col-md-4 online-users">
+    <center><strong>online users</strong></center>
+    <div class="glyphicon glyphicon-user" id="online-users">
+    </div>
+  </div>
+</div>
+
+
+</div>
+</body>
+</html>

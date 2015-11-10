@@ -1,0 +1,42 @@
+body {
+  color: #fff;
+}
+
+.chat-app {
+height: 500px;
+width: 600px;
+background-color: #fff;
+padding-top: 30px;
+}
+
+.name{
+padding-bottom: 10px;
+font-family: 'Poiret One', cursive;
+}
+
+.online-users{
+background-color: #fff;
+ }
+
+.chat-app ul {
+     list-style: none;
+     margin: 0px;
+     padding: 10px;
+     overflow: auto;
+     height: 300px;
+}
+
+.main{
+background-color: #fff;
+}
+
+.message-text {
+  bottom: 0px;
+  margin-top: 25px;
+  font-family: 'Poiret One', cursive;
+}
+
+.glyphicon-user{
+font-size: 64px;
+color: #BD6200;
+}
